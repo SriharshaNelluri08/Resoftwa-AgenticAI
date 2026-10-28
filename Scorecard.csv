@@ -1,0 +1,16 @@
+﻿Sno,Prompt,,,,,,,,,,,Chat GPT,Claude,Gemini
+1,Differentiate between Delivery class 'A' and Delivery class 'C' in DDIC of SAP?,,,,,,,,,,,4,3.5,4
+2,How the trasport happens from one system to another system for Delivery class 'A' and delivery Class 'C'?,,,,,,,,,,,3.5,3.5,3.5
+3,In which transport requests table has to be saved according to the delivery class of the table? Why?,,,,,,,,,,,3.5,3.5,3.5
+4,What difference do they transport requests make ?,,,,,,,,,,,3.5,3.5,4
+5,explain the types of data browser/table view editing of a table  happens and how they works in detail?,,,,,,,,,,,4,4,4
+6,Create a sales order using a standard class,,,,,,,,,,,2.5,4,3.5
+7,Explain the primary and secondary indexes in table,,,,,,,,,,,3.5,3.5,3.5
+8,How the SAP assign indexes to that particular field values?,,,,,,,,,,,3,4,4
+9,What are hashed internal tables And how we use it?,,,,,,,,,,,4,4,4
+10,Diffrentiate between empty key and default key. How they effect the types of internal tables?,,,,,,,,,,,4,4,4
+11,"Differentiate between Public, private, and protected",,,,,,,,,,,4,4,4
+12,Give me A BAPI Fm to cancel the PO?,,,,,,,,,,,3,3,3
+13,What is Odata and How it behaves?,,,,,,,,,,,3,3.5,3.5
+14,What is the T-Code for payment?,,,,,,,,,,,5,5,5
+15,What are the table for delivery?,,,,,,,,,,,5,5,5
