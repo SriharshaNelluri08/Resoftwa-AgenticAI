@@ -1,0 +1,28 @@
+                 AGENT LOOP  (agent.py, max 10 steps)
+
+   task ─────────────▶ messages[]
+                          │
+              ┌───────────▼────────────┐
+         ┌───▶│  call_model(messages)  │  Claude + TOOLS schema
+         │    └───────────┬────────────┘
+         │                │ stop_reason?
+         │      end_turn ◀┴▶ tool_use
+         │         │            │
+         │       DONE    for each tool_use block:
+         │                      │
+         │      ┌───────────────┼──────────────────────┐
+         │      ▼               ▼                      ▼
+         │ list_purchase_  get_supplier_         send_email
+         │    orders()      contact(supplier)    (to,subject,body)
+         │  [read-only]      [read-only]         [SIDE EFFECT]
+         │      │               │                      │
+         │      │               │            ┌─────────▼─────────┐
+         │      │               │            │ HUMAN GATE  y/n   │
+         │      │               │            └───┬───────────┬───┘
+         │      │               │           y: sent      n: REFUSED
+         │      └───────────────┴──────┬─────────┴───────────┘
+         │                             ▼
+         │                  audit(step, tool, input,
+         │                        decision, result)──▶ audit.jsonl
+         │                             │
+         └──── append tool_result ◀────┘     step > 10 ? ─▶ HALT
