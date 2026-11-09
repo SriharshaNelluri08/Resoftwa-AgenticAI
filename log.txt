@@ -1,0 +1,17 @@
+ # Day 7 Lab Log: Codex, MCP Servers & Capstone Extraction
+
+## 🚀 What We Accomplished Today
+1. **Codex & Safe Coding:** Learned the 5 golden rules of AI coding, compared Claude Code and Codex, and practiced spec-driven development using `spec.md`.
+2. **MCP Server Built:** Created a custom Python Model Context Protocol server (`server.py`) with tools like `get_po` and `check_po_receipt` running securely over our purchase order data (`po_list.csv`).
+3. **Claude Code Integration:** Successfully connected our `po-tools` server to Claude Code via stdio transport.
+4. **Capstone Extraction Tests:** Moved our purchase order validation rules into the MCP server and verified that our extraction tests pass cleanly.
+
+## 📊 Architecture Flow Diagram
+
+
+  +------------------+             +--------------------+             +----------------------+
+  |                  |  stdio MCP  |                    |  Reads/CSV  |                      |
+  |   Claude Code    | ----------> |     MCP Server     | ----------> | purch_order.csv data |
+  |     (Agent)      |   Protocol  |    (server.py)     |   Python    |    (Database)        |
+  |                  |             |                    |             |                      |
+  +------------------+             +--------------------+             +----------------------+
