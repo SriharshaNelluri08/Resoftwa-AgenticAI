@@ -1,0 +1,23 @@
+[
+  {
+    "po_number": "PO-0001",
+    "requisition": "PR1",
+    "supplier": "Sharma Steels",
+    "amount": 450000,
+    "created_at": "2026-11-12T01:57:39"
+  },
+  {
+    "po_number": "PO-0002",
+    "requisition": "PR2",
+    "supplier": "Vizag Paints",
+    "amount": 120000,
+    "created_at": "2026-11-12T01:57:39"
+  },
+  {
+    "po_number": "PO-0003",
+    "requisition": "PR3",
+    "supplier": "Guntur Cables",
+    "amount": 980000,
+    "created_at": "2026-11-12T01:57:39"
+  }
+]

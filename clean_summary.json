@@ -1,0 +1,30 @@
+{
+  "invoices_received": 5,
+  "clean": 3,
+  "exceptions": 2,
+  "clean_subtotal": 1550000,
+  "clean_gst": 279000,
+  "clean_total_payable": 1829000,
+  "by_vendor": {
+    "Sharma Steels": {
+      "count": 1,
+      "total": 531000
+    },
+    "Vizag Paints": {
+      "count": 1,
+      "total": 141600
+    },
+    "Guntur Cables": {
+      "count": 1,
+      "total": 1156400
+    }
+  },
+  "clean_invoices": [
+    "INV-1001",
+    "INV-1002",
+    "INV-1003"
+  ],
+  "mcp_tools_used": [
+    "validate_invoice"
+  ]
+}

@@ -1,0 +1,12 @@
+[
+{"invoice_no":"INV-1001","vendor":"Sharma Steels","gstin":"36AAAPS1234A1Z5","date":"2026-11-03","po_number":"PO-0001",
+ "lines":[{"item":"MS rods","qty":10,"rate":30000},{"item":"Steel plates","qty":5,"rate":30000}],"subtotal":450000,"gst":81000,"total":531000},
+{"invoice_no":"INV-1002","vendor":"Vizag Paints","gstin":"37AABCV5678B1Z2","date":"2026-11-04","po_number":"PO-0002",
+ "lines":[{"item":"Exterior paint","qty":20,"rate":5000},{"item":"Primer","qty":10,"rate":2000}],"subtotal":120000,"gst":21600,"total":141600},
+{"invoice_no":"INV-1003","vendor":"Guntur Cables","gstin":"37AAACG9012C1Z8","date":"2026-11-05","po_number":"PO-0003",
+ "lines":[{"item":"Copper cable","qty":40,"rate":15000},{"item":"Conduits","qty":38,"rate":10000}],"subtotal":980000,"gst":176400,"total":1156400},
+{"invoice_no":"INV-1004","vendor":"Sharma Steels","gstin":"36AAAPS1234A1Z5","date":"2026-11-08","po_number":"PO-0001",
+ "lines":[{"item":"MS rods","qty":10,"rate":50000}],"subtotal":500000,"gst":75000,"total":575000},
+{"invoice_no":"INV-1005","vendor":"New Vendor Co","gstin":"29ABCDE1234","date":"2026-11-09","po_number":"",
+ "lines":[{"item":"Office chairs","qty":12,"rate":5000}],"subtotal":60000,"gst":10800,"total":70800}
+]

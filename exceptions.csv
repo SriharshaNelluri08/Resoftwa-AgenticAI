@@ -1,0 +1,3 @@
+invoice_no,vendor,total_inr,reasons
+INV-1004,Sharma Steels,575000,"GST should be INR 90,000 (18% of 500,000) but invoice shows INR 75,000 | subtotal INR 500,000 exceeds remaining balance INR 0 on PO-0001 (PO INR 450,000)"
+INV-1005,New Vendor Co,70800,invalid GSTIN format '29ABCDE1234' (needs 15 characters) | vendor 'New Vendor Co' is not an approved supplier (status: new) | no purchase order reference

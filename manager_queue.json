@@ -1,0 +1,16 @@
+[
+  {
+    "requisition": "PR4",
+    "supplier": "New Vendor Co",
+    "amount": 60000,
+    "reason": "supplier status is 'new' (not a known good supplier)",
+    "status": "waiting for approval"
+  },
+  {
+    "requisition": "PR5",
+    "supplier": "Sharma Steels",
+    "amount": 3200000,
+    "reason": "amount INR 3,200,000 is above the INR 25,00,000 limit",
+    "status": "waiting for approval"
+  }
+]
